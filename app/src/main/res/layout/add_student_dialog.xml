@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Enter Name"
+            android:singleLine="true"
+            android:id="@+id/d_name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Enter Registration Number"
+            android:singleLine="true"
+            android:id="@+id/d_reg_num" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Enter Mobile Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:id="@+id/d_mob_num" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Enter Secondary Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:id="@+id/d_sec_num" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/d_email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Enter Address"
+            android:inputType="textPostalAddress"
+            android:id="@+id/d_address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="List of Core Courses : " />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:id="@+id/d_spinner" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingStart="64dp"
+            android:paddingRight="64dp"
+            android:paddingEnd="64dp"
+            android:text="ADD"
+            android:id="@+id/d_add_btn"
+            android:background="@drawable/round_button"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:layout_margin="@dimen/activity_horizontal_margin" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingStart="64dp"
+            android:paddingRight="64dp"
+            android:paddingEnd="64dp"
+            android:text="DELETE"
+            android:id="@+id/d_del_btn"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/round_button"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin" />
+    </LinearLayout>
+</ScrollView>
